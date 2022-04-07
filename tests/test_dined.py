@@ -34,6 +34,12 @@ def test_get_design_param(pop_door):
     
     assert param == pytest.approx(1589.0)
 
+    # Except if dimension is not a series
+    with pytest.raises(AssertionError):
+        param = get_design_param(1,10,20)
+
+
+
 def test_get_design_params(specs_door, pop_door):
     '''
     This will check that design parameters are calculated correctly

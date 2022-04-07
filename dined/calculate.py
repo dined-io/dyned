@@ -57,7 +57,7 @@ def get_design_param(
         dimension, pd.core.series.Series
     ), "The dimension must be a series"
 
-    percentages = np.array([0, 1, 5, 50, 95, 99, 100])
+    percentages = np.array([target_perc])
     target_dim = dimension.describe(percentiles=percentages * 0.01)
     target_dim = target_dim[str(f"{target_perc}%")]
 

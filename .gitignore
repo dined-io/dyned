@@ -3,6 +3,9 @@
 # virtual environment
 .env
 
+# dot env
+.env
+
 # Development with modules
 *.egg-info/
 
