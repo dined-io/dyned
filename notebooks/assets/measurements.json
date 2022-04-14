@@ -1,0 +1,1048 @@
+[
+	{
+		"id": "1",
+		"name_nl": "Staand, lengte/diepte",
+		"name_en": "Standing, length/depth",
+		"labels": [
+			{
+				"id": "1",
+				"name_en": "Reach height, standing",
+				"name_nl": "Reikhoogte beide armen, staand",
+				"dimension": "mm",
+				"description_en": null,
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "2",
+				"name_en": "Stature",
+				"name_nl": "Lichaamslengte",
+				"dimension": "mm",
+				"description_en": "The vertical distance from the floor to the top of the head (vertex).",
+				"description_nl": null,
+				"video_url": "https://www.youtube.com/watch?v=SvSEX6rFHZc",
+				"correlation_type": "1"
+			},
+			{
+				"id": "3",
+				"name_en": "Eye height, standing",
+				"name_nl": "Ooghoogte, zittend",
+				"dimension": "mm",
+				"description_en": "Vertical distance between the standing surface and the inner corner of the right eye.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "4",
+				"name_en": "Shoulder height",
+				"name_nl": "Schouderhoogte",
+				"dimension": "mm",
+				"description_en": "Vertical distance from the standing surface to the acromion.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "5",
+				"name_en": "Elbow height, standing",
+				"name_nl": "Ellebooghoogte, staand",
+				"dimension": "mm",
+				"description_en": "Vertical distance from the floor to the lowest bony point of the elbow.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "6",
+				"name_en": "Fist height, standing",
+				"name_nl": "Vuist hoogte, staand",
+				"dimension": "mm",
+				"description_en": "The vertical distance from the floor to the middle of the grip device in the fist.",
+				"description_nl": null,
+				"video_url": "https://www.youtube.com/watch?v=_11UUrQQzgQ",
+				"correlation_type": "1"
+			},
+			{
+				"id": "81",
+				"orientatie": null,
+				"name_en": "Crotch height",
+				"name_nl": "Kruishoogte",
+				"dimension": "mm",
+				"description_en": "Vertical distance from the floor to the distal part of the inferior ramus of the pubic bone.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "8",
+				"name_en": "Hip height",
+				"name_nl": "Heuphoogte",
+				"dimension": "mm",
+				"description_en": null,
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "19",
+				"name_en": "Reach depth",
+				"name_nl": "Reikdiepte",
+				"dimension": "mm",
+				"description_en": null,
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "20",
+				"name_en": "Arm length",
+				"name_nl": "Functionele armlengte",
+				"dimension": "mm",
+				"description_en": "The horizontal distance from the back of the measuring chair to the most distal point of the grip device.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "27",
+				"name_en": "Chest depth",
+				"name_nl": "Borstdiepte",
+				"dimension": "mm",
+				"description_en": "The maximum horizontal distance between the front and the back of the trunk at the nipples.",
+				"description_nl": null,
+				"correlation_type": "3"
+			},
+			{
+				"id": "79",
+				"orientatie": null,
+				"name_en": "Palm height, standing",
+				"name_nl": "Handpalm hoogte, staand",
+				"dimension": "mm",
+				"description_en": "The vertical distance between the floor and the lowest point of the bent palm. Bent as if looking for support on a table.",
+				"description_nl": null,
+				"correlation_type": null
+			}
+		]
+	},
+	{
+		"id": "8",
+		"name_nl": "Krachtuitoefening",
+		"name_en": "Force excercise",
+		"labels": [
+			{
+				"id": "57",
+				"orientatie": null,
+				"name_en": "Maximum gripping force",
+				"name_nl": "Maximum knijpkracht, een hand",
+				"dimension": "N",
+				"description_en": "The maximum gripping force of a hand exerted for 3 seconds.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "59",
+				"orientatie": null,
+				"name_en": "Pulling force 1 hand",
+				"name_nl": "Trekkracht, een hand",
+				"dimension": "N",
+				"description_en": "Maximum pulling force of one hand, exerted for 3 seconds.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "58",
+				"orientatie": null,
+				"name_en": "Pushing force with 2 hands",
+				"name_nl": "Duwkracht, twee handen",
+				"dimension": "N",
+				"description_en": "Maximum pushing force using both arms and hands together, exerted for 3 seconds.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "60",
+				"orientatie": null,
+				"name_en": "Torque with two hands",
+				"name_nl": "Statische torsie, twee handen",
+				"dimension": "Nm",
+				"description_en": "Maximum static torque of two hands and arms, exerted for 3 seconds.",
+				"description_nl": null,
+				"correlation_type": null
+			}
+		]
+	},
+	{
+		"id": "7",
+		"name_nl": "Gewrichtsexcursies",
+		"name_en": "Joint excursion",
+		"labels": [
+			{
+				"id": "67",
+				"orientatie": null,
+				"name_en": "Pronation",
+				"name_nl": "Pronatie",
+				"dimension": "deg",
+				"description_en": "Maximum rotation of the wrist inward.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "68",
+				"orientatie": null,
+				"name_en": "Supination",
+				"name_nl": "Supinatie",
+				"dimension": "deg",
+				"description_en": "Maximum rotation of the wrist outward.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "69",
+				"orientatie": null,
+				"name_en": "Extension hand",
+				"name_nl": "Extensie van de pols",
+				"dimension": "deg",
+				"description_en": "Maximum upward bending of the stretched preferred hand from the wrist.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "70",
+				"orientatie": null,
+				"name_en": "Flexion hand",
+				"name_nl": "Flexie van de pols",
+				"dimension": "deg",
+				"description_en": "Maximum downward bending of the stretched preferred hand from the wrist.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "71",
+				"orientatie": null,
+				"name_en": "Radial deviation",
+				"name_nl": "Radiale deviatie van de pols",
+				"dimension": "deg",
+				"description_en": "Maximum radial abduction of the stretched preferred hand from the wrist.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "72",
+				"orientatie": null,
+				"name_en": "Ulnar deviation",
+				"name_nl": "Ulnaire deviatie van de pols",
+				"dimension": "deg",
+				"description_en": "Maximum ulnar abduction of the stretched preferred hand from the wrist.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "73",
+				"orientatie": null,
+				"name_en": "Forefinger flexion",
+				"name_nl": "Flexie van de wijsvinger",
+				"dimension": "deg",
+				"description_en": "Maximum downward bending of the stretched forefinger of the preferred hand.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "64",
+				"orientatie": null,
+				"name_en": "Rotation of head toward chest",
+				"name_nl": "Flexie van het hoofd",
+				"dimension": "deg",
+				"description_en": "Maximum forward bending (flexion) of the head.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "63",
+				"orientatie": null,
+				"name_en": "Rotation of head backwards",
+				"name_nl": "Extensie van het hoofd",
+				"dimension": "deg",
+				"description_en": "Maximum backward bending (extension) of the head.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "66",
+				"orientatie": null,
+				"name_en": "Bending of head towards left shoulder",
+				"name_nl": "Zijwaarts buigen van het hoofd naar links",
+				"dimension": "deg",
+				"description_en": "Maximum sideward bending of the head towards the left.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "65",
+				"orientatie": null,
+				"name_en": "Bending of head towards right shoulder",
+				"name_nl": "Zijwaarts buigen van het hoofd naar rechts",
+				"dimension": "deg",
+				"description_en": "Maximum sideward bending of the head towards the right.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "61",
+				"orientatie": null,
+				"name_en": "Rotation of head towards left",
+				"name_nl": "Rotatie van het hoofd naar links",
+				"dimension": "deg",
+				"description_en": "Maximum rotation of the head towards the left.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "62",
+				"orientatie": null,
+				"name_en": "Rotation of head towards right",
+				"name_nl": "Rotatie van het hoofd naar rechts",
+				"dimension": "deg",
+				"description_en": "Maximum rotation of the head towards the right.",
+				"description_nl": null,
+				"correlation_type": null
+			}
+		]
+	},
+	{
+		"id": "9",
+		"name_nl": "Overig",
+		"name_en": "Other",
+		"labels": [
+			{
+				"id": "56",
+				"orientatie": null,
+				"name_en": "Body mass",
+				"name_nl": "Lichaamsgewicht",
+				"dimension": "kg",
+				"description_en": "Total mass of the body",
+				"description_nl": null,
+				"distribution": null,
+				"decimals": 1,
+				"correlation_type": null
+			},
+			{
+				"id": "86",
+				"orientatie": null,
+				"name_en": "Body Mass Index (BMI)",
+				"name_nl": "Body-mass index (BMI)",
+				"dimension": "kg/m2",
+				"description_en": "An index for the relationship between the body mass and height.",
+				"description_nl": "Een index voor de verhouding tussen lengte en gewicht.",
+				"distribution": null,
+				"decimals": 1,
+				"correlation_type": null
+			},
+			{
+				"id": "74",
+				"orientatie": null,
+				"name_en": "Step-up height",
+				"name_nl": "Opstaphoogte",
+				"dimension": "mm",
+				"description_en": "Vertical distance covered in one comfortable step upwards.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "75",
+				"orientatie": null,
+				"name_en": "Cervical (c7) height, sitting",
+				"name_nl": "Cervicale (c7) hoogte, zittend",
+				"dimension": "mm",
+				"description_en": "The vertical distance from the seat to the 7th cervical vertebra.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "76",
+				"orientatie": null,
+				"name_en": "Cervical (c7)-backplane depth, sitting",
+				"name_nl": "Cervicale (c7)-wand diepte, zittend",
+				"dimension": "mm",
+				"description_en": "The horizontal distance from backplane to the 7th cervical vertebra.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "77",
+				"orientatie": null,
+				"name_en": "Sacrum-backplane depth, sitting",
+				"name_nl": "Os sacrum-wand diepte, zittend",
+				"dimension": "mm",
+				"description_en": "The horizontal distance from backplane to the sacrum. As default, measured 10cm above the seat plane.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "78",
+				"orientatie": null,
+				"name_en": "Heel height",
+				"name_nl": "Hielhoogte",
+				"dimension": "mm",
+				"description_en": "The vertical distance (on the shoe) between the bottom of the heel and the floor of the shoe.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "80",
+				"orientatie": null,
+				"name_en": "Age",
+				"name_nl": "Leeftijd",
+				"dimension": "years",
+				"description_en": "Date of measurement minus birth date then divided by 365.25. In some datasets the result may be rounded to years.",
+				"description_nl": null,
+				"correlation_type": null
+			}
+		]
+	},
+	{
+		"id": "2",
+		"name_nl": "Staand, breedte/omtrek",
+		"name_en": "Standing, width/circumference",
+		"labels": [
+			{
+				"id": "22",
+				"orientatie": null,
+				"name_en": "Shoulder breadth (bi-deltoid)",
+				"name_nl": "Schouderbreedte (bi-deltoidus)",
+				"dimension": "mm",
+				"description_en": "The horizontal breath across the shoulders.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "21",
+				"orientatie": null,
+				"name_en": "Breadth over the elbows",
+				"name_nl": "Breedte over de ellebogen",
+				"dimension": "mm",
+				"description_en": "The maximum horizontal distance between the lateral sides of the elbows.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "24",
+				"orientatie": null,
+				"name_en": "Hip breadth",
+				"name_nl": "Heupbreedte",
+				"dimension": "mm",
+				"description_en": "Maximum breadth across the hips.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "37",
+				"orientatie": null,
+				"name_en": "Chest circumference",
+				"name_nl": "Borst omvang",
+				"dimension": "mm",
+				"description_en": "Circumference of the chest measured at nipple level.",
+				"description_nl": null,
+				"correlation_type": "4"
+			},
+			{
+				"id": "38",
+				"orientatie": null,
+				"name_en": "Waist circumference",
+				"name_nl": "Taille omvang",
+				"dimension": "mm",
+				"description_en": "Circumference of trunk at a level midway between the lowest ribs and upper ilia crest.",
+				"description_nl": null,
+				"correlation_type": "4"
+			},
+			{
+				"id": "39",
+				"orientatie": null,
+				"name_en": "Hip circumference",
+				"name_nl": "Heupen omvang",
+				"dimension": "mm",
+				"description_en": null,
+				"description_nl": null,
+				"correlation_type": "4"
+			},
+			{
+				"id": "26",
+				"orientatie": null,
+				"name_en": "Knee breadth",
+				"name_nl": "Kniebreedte",
+				"dimension": "mm",
+				"description_en": "Breath of the right knee at the condyles of the upper leg.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "40",
+				"orientatie": null,
+				"name_en": "Upperarm circumference",
+				"name_nl": "Bovenarmomvang",
+				"dimension": "mm",
+				"description_en": "Maximum circumference of the upper arm perpendicular to the long axis of the body, midway between shoulder and elbow.",
+				"description_nl": null,
+				"correlation_type": "4"
+			},
+			{
+				"id": "82",
+				"orientatie": null,
+				"name_en": "Calf circumference",
+				"name_nl": "Kuitomtrek",
+				"dimension": "mm",
+				"description_en": "Maximum circumference of the calf.",
+				"description_nl": null,
+				"correlation_type": null
+			},
+			{
+				"id": "83",
+				"orientatie": null,
+				"name_en": "Thigh circumference",
+				"name_nl": "Dij omtrek",
+				"dimension": "mm",
+				"description_en": "Maximum circumference of the thigh.",
+				"description_nl": null,
+				"correlation_type": null
+			}
+		]
+	},
+	{
+		"id": "4",
+		"name_nl": "Hoofd",
+		"name_en": "Head",
+		"labels": [
+			{
+				"id": "55",
+				"name_en": "Ear length",
+				"name_nl": "Oorlengte",
+				"dimension": "mm",
+				"description_en": "The maximum distance from the highest tot the lowest point of the auricle.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "23",
+				"name_en": "Head breadth",
+				"name_nl": "Hoofdbreedte",
+				"dimension": "mm",
+				"description_en": "Maximum breadth of the head above the ears measured perpendicular to the midsagittal plane.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "28",
+				"name_en": "Head depth",
+				"name_nl": "Hoofddiepte",
+				"dimension": "mm",
+				"description_en": null,
+				"description_nl": null,
+				"correlation_type": "3"
+			},
+			{
+				"id": "35",
+				"name_en": "Head circumference",
+				"name_nl": "Hoofd omvang",
+				"dimension": "mm",
+				"description_en": "Maximum about horizontal circumference of the head measured just the glabella and over the opisthocranion.",
+				"description_nl": null,
+				"correlation_type": "4"
+			},
+			{
+				"id": "36",
+				"name_en": "Neck base circumference",
+				"name_nl": "Nekbasis omvang",
+				"dimension": "mm",
+				"description_en": null,
+				"description_nl": null,
+				"correlation_type": "4"
+			},
+			{
+				"id": "11",
+				"name_en": "Chin-crown height",
+				"name_nl": "Kin-kruinlengte",
+				"dimension": "mm",
+				"description_en": "The rectilinear distance from chin to crown.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "7",
+				"name_en": "Head height",
+				"name_nl": "Hoofdhoogte",
+				"dimension": "mm",
+				"description_en": "The height of the head perpendicular to the Frankfort Plane, from menton to vertex.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "85",
+				"name_en": "Face length",
+				"name_nl": "Gezichtslengte",
+				"dimension": "mm",
+				"description_en": "The length of the face, from menton to sellion or chin to nasal root.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "89",
+				"name_en": "Face width",
+				"name_nl": "Gezichtsbreedte",
+				"dimension": "mm",
+				"description_en": "The width of the face, from left to right zygon.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "90",
+				"name_en": "Face length long",
+				"name_nl": "Gezichtslengte lang",
+				"dimension": "mm",
+				"description_en": "The long length of the face, from gnathion to sellion or below chin to nasal root.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "91",
+				"name_en": "Lower face length",
+				"name_nl": "Lengte onderste deel gezicht",
+				"dimension": "mm",
+				"description_en": "The length of the lower part of the face, from subnasale to gnathion.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "92",
+				"name_en": "Intercanthal width",
+				"name_nl": "Intercanthale breedte",
+				"dimension": "mm",
+				"description_en": "The width the face, from left to right lateral eye corner.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "93",
+				"name_en": "Nasal root breadth",
+				"name_nl": "Neuswortelbreedte",
+				"dimension": "mm",
+				"description_en": "The width of the nasal root, from left to right maxillofrontale.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "94",
+				"name_en": "Nose length",
+				"name_nl": "Neuslengte",
+				"dimension": "mm",
+				"description_en": "The length of the nose, from sellion to subnasale.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "95",
+				"name_en": "Nose bridge length",
+				"name_nl": "Neusbruglengte",
+				"dimension": "mm",
+				"description_en": "The length of the nasal bridge, from sellion to pronasale.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "96",
+				"name_en": "Nasal tip protrusion",
+				"name_nl": "Neuspuntdiepte",
+				"dimension": "mm",
+				"description_en": "The depth of the tip of the nose, from subnasale to pronasale.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "97",
+				"name_en": "Nose width",
+				"name_nl": "Neusbreedte",
+				"dimension": "mm",
+				"description_en": "The width of the nose, from left to right alare.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "98",
+				"name_en": "Width of mouth",
+				"name_nl": "Mondbreedte",
+				"dimension": "mm",
+				"description_en": "The width of the mouth, from left to right chellion.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "99",
+				"name_en": "Height of chin",
+				"name_nl": "Kinhoogte",
+				"dimension": "mm",
+				"description_en": "The height of the chin, from gnathion to supramemtale.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "100",
+				"name_en": "Face length short",
+				"name_nl": "Gezichtslengte kort",
+				"dimension": "mm",
+				"description_en": "The shortlength of the face , from sellion to supramemtale.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "101",
+				"name_en": "Sellion promentale length",
+				"name_nl": "Sellion promentale lengte",
+				"dimension": "mm",
+				"description_en": "The length of the face, from sellion to promentale.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "102",
+				"name_en": "Bigonial breadth",
+				"name_nl": "Bigoniale breedte",
+				"dimension": "mm",
+				"description_en": "Distance from left to right gonion.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "103",
+				"name_en": "Bitragion breadth",
+				"name_nl": "Bitragion breedte",
+				"dimension": "mm",
+				"description_en": "Distance between the left and right tragion.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "104",
+				"name_en": "Nasal root protrusion",
+				"name_nl": "Neusbrugdiepte",
+				"dimension": "mm",
+				"description_en": "Distance from the sellion to the line between left and right maxillofrontale.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "105",
+				"name_en": "Relative Nasal Tip Protrusion",
+				"name_nl": "Relatieve neuspuntdiepte",
+				"dimension": "%",
+				"description_en": "A relative measure of nasal tip protrusion measured as the ratio of Nasal Tip Protrusion over Nose Length, in percentage.",
+				"description_nl": null,
+				"correlation_type": "2"
+			}
+		]
+	},
+	{
+		"id": "5",
+		"name_nl": "Hand",
+		"name_en": "Hand",
+		"labels": [
+			{
+				"id": "43",
+				"name_en": "Hand length",
+				"name_nl": "Hand lengte",
+				"dimension": "mm",
+				"description_en": "The distance from the wrist crease tot the tip of the middle finger, parallel to the fingers.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "44",
+				"name_en": "Hand width (without thumb)",
+				"name_nl": "Hand breedte (zonder duim)",
+				"dimension": "mm",
+				"description_en": "The distance from the radial to ulnar side of the hand, measured at the distal extremities of the metacarpals.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "45",
+				"name_en": "Thumb breadth",
+				"name_nl": "Duimbreedte",
+				"dimension": "mm",
+				"description_en": "The maximum distance from the radial to the ulnar side of the thumb at the distal interphalangial joint.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "46",
+				"name_en": "Forefinger breadth",
+				"name_nl": "Wijsvingertop breedte",
+				"dimension": "mm",
+				"description_en": "The maximum distance from the radial to the ulnair side of the forefinger at the middle of the distal phalanx.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "54",
+				"name_en": "Grip circumference",
+				"name_nl": "Grip omtrek",
+				"dimension": "mm",
+				"description_en": "The maximum circumference of the circle, made by the thumb and forefinger when enclosing a cone.",
+				"description_nl": null,
+				"correlation_type": "4"
+			},
+			{
+				"id": "47",
+				"name_en": "Hand width (with thumb)",
+				"name_nl": "Handbreedte (met duim)",
+				"dimension": "mm",
+				"description_en": null,
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "53",
+				"name_en": "Length pointing finger",
+				"name_nl": "Lengte wijsvinger",
+				"dimension": "mm",
+				"description_en": null,
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "48",
+				"name_en": "Hand thickness",
+				"name_nl": "Handdikte",
+				"dimension": "mm",
+				"description_en": "The maximum distance between the palm and the back of the hand at the middle finger joint.",
+				"description_nl": null,
+				"correlation_type": "3"
+			},
+			{
+				"id": "50",
+				"name_en": "Middlefinger length",
+				"name_nl": "Middelvingerlengte",
+				"dimension": "mm",
+				"description_en": "Distance from the skin crease at the middle finger to the tip of the middle finger, parallel to the long axis of the middle finger.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "49",
+				"name_en": "Pink breadth",
+				"name_nl": "Pinkbreedte",
+				"dimension": "mm",
+				"description_en": "Maximum distance between the palm and the back of the hand at the middle finger joint.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "52",
+				"name_en": "Hand diameter",
+				"name_nl": "Handdiameter",
+				"dimension": "mm",
+				"description_en": "Minimum diameter of the hand, when in its smallest configuration.",
+				"description_nl": null,
+				"correlation_type": "4"
+			}
+		]
+	},
+	{
+		"id": "6",
+		"name_nl": "Voet",
+		"name_en": "Foot",
+		"labels": [
+			{
+				"id": "41",
+				"orientatie": null,
+				"name_en": "Foot length",
+				"name_nl": "Voetlengte",
+				"dimension": "mm",
+				"description_en": "The maximum horizontal distance from the heel of the longest toe of the right foot unshod, parallel to the long axis of the foot.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "42",
+				"name_en": "Foot breadth",
+				"name_nl": "Voetbreedte",
+				"dimension": "mm",
+				"description_en": "The maximum width across the ball of the right foot unshod.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "10",
+				"name_en": "Instep height",
+				"name_nl": "Wreefhoogte",
+				"dimension": "mm",
+				"description_en": "The vertical distance from the footrest surface to the instep (the junction of the lower (the junction of the lower leg and foot).",
+				"description_nl": null,
+				"correlation_type": "3"
+			},
+			{
+				"id": "84",
+				"orientatie": null,
+				"name_en": "Foot circumference",
+				"name_nl": "Voetomtrek",
+				"dimension": "mm",
+				"description_en": "Maximum circumference of the heel measured at the ankle (the point where the talus is situated) and crossing the rearmost and lowest point of the heel.",
+				"description_nl": null,
+				"correlation_type": null
+			}
+		]
+	},
+	{
+		"id": "3",
+		"name_nl": "Zittend, lengte/diepte/breedte",
+		"name_en": "Sitting, length/width/depth",
+		"labels": [
+			{
+				"id": "12",
+				"name_en": "Shoulder-elbow length",
+				"name_nl": "Schouder-elleboog lengte",
+				"dimension": "mm",
+				"description_en": "The maximum vertical distance from the acromion to the lowest bony point of the flexed elbow.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "31",
+				"name_en": "Elbow-grip length",
+				"name_nl": "Elleboog-grip lengte",
+				"dimension": "mm",
+				"description_en": "The maximum horizontal distance between the lowest bony point of the flexed elbow and the middle of the grip device.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "29",
+				"name_en": "Elbow-finger tip length",
+				"name_nl": "Elleboog vingertop lengte",
+				"dimension": "mm",
+				"description_en": "The maximum horizontal distance between the lowest bony point of the flexed elbow and the tip of the middle finger of the right hand.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "25",
+				"name_en": "Hip breadth, sitting",
+				"name_nl": "Heupbreedte, zittend",
+				"dimension": "mm",
+				"description_en": "The maximum horizontal distance across the hips, parallel to the seat.",
+				"description_nl": null,
+				"correlation_type": "2"
+			},
+			{
+				"id": "17",
+				"name_en": "Sitting height",
+				"name_nl": "Kruin-zitvlak hoogte",
+				"dimension": "mm",
+				"description_en": "The vertical distance from the seat to the vertex (top of the head).",
+				"description_nl": null,
+				"video_url": "https://www.youtube.com/watch?v=aXQmiJmQxGE",
+				"correlation_type": "1"
+			},
+			{
+				"id": "16",
+				"name_en": "Eye height, sitting",
+				"name_nl": "Ooghoogte, zittend",
+				"dimension": "mm",
+				"description_en": "The vertical distance from the seat to the inner corner of the right eye.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "15",
+				"name_en": "Shoulder height, sitting",
+				"name_nl": "Schouder hoogte, zittend",
+				"dimension": "mm",
+				"description_en": "The vertical distance from the seat to the acromion.",
+				"description_nl": null,
+				"video_url": "https://www.youtube.com/watch?v=nAnIpufwz_k",
+				"correlation_type": "1"
+			},
+			{
+				"id": "30",
+				"name_en": "Abdominal depth",
+				"name_nl": "Buikdiepte zittend",
+				"dimension": "mm",
+				"description_en": "The horizontal distance from the back of the measuring chair to the most distal point of the abdomen.",
+				"description_nl": null,
+				"correlation_type": "3"
+			},
+			{
+				"id": "32",
+				"name_en": "Buttock-popliteal depth",
+				"name_nl": "Bil-knieholte lengte",
+				"dimension": "mm",
+				"description_en": "The horizontal distance from the back of the measuring chair to the hollow of the knee parallel of the long axis of the upper leg.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "33",
+				"name_en": "Buttock-knee depth, sitting",
+				"name_nl": "Bil-knie lengte",
+				"dimension": "mm",
+				"description_en": "The horizontal distance from the posterior surface of the right buttock to the anterior surface of the right knee parallel to the long axis of the upper leg.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "9",
+				"name_en": "Thigh clearance, sitting",
+				"name_nl": "Dijbeenhoogte zittend",
+				"dimension": "mm",
+				"description_en": "Vertical distance from the seat to the highest point on the superior surface of the thigh at the abdominal-thigh junction.",
+				"description_nl": null,
+				"correlation_type": "3"
+			},
+			{
+				"id": "14",
+				"name_en": "Popliteal height, sitting",
+				"name_nl": "Knieholtehoogte",
+				"dimension": "mm",
+				"description_en": "The vertical distance from the footrest surface to the hollow of the knee.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "88",
+				"name_en": "Knee height, sitting",
+				"name_nl": "Kniehoogte",
+				"dimension": "mm",
+				"description_en": "The vertical distance from the footrest surface to the top of the knee.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "13",
+				"name_en": "Elbow height, sitting",
+				"name_nl": "Elleboog-zitvlak-hoogte",
+				"dimension": "mm",
+				"description_en": "Vertical distance from the sitting surface to the lowest bony point of the elbow with the underarm horizontal. In some datasets this measure is calculated by subtracting shoulder-elbow length from shoulder height.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "34",
+				"name_en": "Buttock foot length, sitting",
+				"name_nl": "Bil-voet lengte",
+				"dimension": "mm",
+				"description_en": "The horizontal distance from the buttock to the sole of the foot of the stretched leg.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "18",
+				"name_en": "Reach height, sitting",
+				"name_nl": "Reikhoogte zittend",
+				"dimension": "mm",
+				"description_en": "The vertical distance from the horizontal surface to the mid-point of the grip device.",
+				"description_nl": null,
+				"correlation_type": "1"
+			},
+			{
+				"id": "87",
+				"name_en": "Subscapular height",
+				"name_nl": "Subscapulare hoogte",
+				"dimension": "mm",
+				"description_en": "Height of the bottom of the shoulder-blade to seat.",
+				"description_nl": "Hoogte onderkant schouderblad tot zitting als indicatie voor hoogte  bovenkant lumbaal steun.",
+				"correlation_type": "1"
+			}
+		]
+	}
+]
