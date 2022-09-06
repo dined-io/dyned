@@ -308,6 +308,18 @@
 		"name_en": "Other",
 		"labels": [
 			{
+				"id": "0",
+				"orientatie": null,
+				"name_en": "Sex",
+				"name_nl": "Geslacht",
+				"dimension": null,
+				"description_en": "Sex of the participant",
+				"description_nl": null,
+				"distribution": null,
+				"decimals": 1,
+				"correlation_type": null
+			},
+			{
 				"id": "56",
 				"orientatie": null,
 				"name_en": "Body mass",
