@@ -15,7 +15,7 @@ env
 notebooks/experiment.ipynb
 notebooks/*.csv
 
-# experiments/
+experiments/
 
 # ignore OSX stuff
 .DS_Store
