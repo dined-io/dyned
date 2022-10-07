@@ -174,10 +174,12 @@ def export_formatted_csv(db: sqlalchemy.engine.base.Engine ,
         # Create dataframe with measurements per individual
         write_to_csv(df, f'{target_dir}/id{study_id}_{study_name}.csv')
     
-def main():
+def main(studies_metadata='./metadata/studies.json', 
+        measures_metadata='./metadata/measures.json', 
+        target_dir='./data'):
+    
     db = create_engine(DB_URI, echo=True)
-    # For each study write a csv file
-    export_formatted_csv(db, './metadata/studies.json', './metadata/measures.json', './data')
+    export_formatted_csv(db, studies_metadata, measures_metadata, target_dir)
     return db
 
 if __name__ == '__main__':

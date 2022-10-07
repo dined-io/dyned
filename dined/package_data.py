@@ -2,11 +2,6 @@
 Generate a data-package.json for the dined data.
 For now each resource is a table that should be a study
 Each study has individuals as rows and measurements as fields
-
-TODO: Packaging must be genericized to allow the transformation of different
-tables coming from differnet sources and not necessarily standardize like dined data,
-perhaps this package can also facilitate in this....perhaps is out of scope...
-
 '''
 from distutils.command import build
 
@@ -370,7 +365,6 @@ if __name__ == '__main__':
     # Build the data package
     data_package = build_dined_data_package(MEASURES_METADATA, STUDIES_METADATA, PACKAGE_DIR)
     write_data_package(data_package, PACKAGE_DIR, 'data-package.json')
-    # r =  validate_resources(f"{PACKAGE_DIR}/{PACKAGE_METADATA}")
     report = validate_package(f"{PACKAGE_DIR}/{PACKAGE_METADATA}")
     if report['valid'] == False:
         print(report.to_summary())

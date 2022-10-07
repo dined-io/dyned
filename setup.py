@@ -26,8 +26,9 @@ setup(name='dined',
             'notebook==6.4.10',
             'pylint==2.13.5',
             'python-dotenv==0.20.0',
-            'mysql-connector-python==8.0.28', #TODO: Remove later this is necessesary for exporting the current database to csvs
-            'SQLAlchemy==1.4.35'
+            'mysql-connector-python==8.0.28', 
+            'SQLAlchemy==1.4.35',
+            'frictionless==4.40.6'
         ]
       },
       zip_safe=False

@@ -1,11 +1,196 @@
 {
+    "name": "dined-tables",
+    "title": "Dined tabular Data",
+    "description": "A data package consisting of tables describing 1D dimensional anthropometric data.",
     "resources": [
         {
-            "name": "dutch_elderly.csv",
-            "title": "dutch_elderly.csv",
-            "description": "A table of data from the dutch_elderly.csv file.",
+            "name": "Dutch children, 0.5-7.0 years (NL)",
+            "description": "The dataset from the PhD Project of Ly\u00e9 Goto with measurements conducted from 2013 until 2015 in The Netherlands. The data only includes the head region of the subjects.",
+            "profile": "tabular-data-resource",
+            "path": "id16_dutch_children,_0_5_7_0_years_(nl).csv",
+            "encoding": "utf-8",
             "schema": {
                 "fields": [
+                    {
+                        "name": "Stature",
+                        "id": "2",
+                        "description": "The vertical distance from the floor to the top of the head (vertex).",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm",
+                        "category": "head"
+                    },
+                    {
+                        "name": "Head height",
+                        "id": "7",
+                        "description": "The height of the head perpendicular to the Frankfort Plane, from menton to vertex.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Head breadth",
+                        "id": "23",
+                        "description": "Maximum breadth of the head above the ears measured perpendicular to the midsagittal plane.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Head depth",
+                        "id": "28",
+                        "description": "Head depth",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Head circumference",
+                        "id": "35",
+                        "description": "Maximum about horizontal circumference of the head measured just the glabella and over the opisthocranion.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Body mass",
+                        "id": "56",
+                        "description": "Total mass of the body",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "kg"
+                    },
+                    {
+                        "name": "Face length",
+                        "id": "85",
+                        "description": "The length of the face, from menton to sellion or chin to nasal root.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Face width",
+                        "id": "89",
+                        "description": "The width of the face, from left to right zygon.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Face length long",
+                        "id": "90",
+                        "description": "The long length of the face, from gnathion to sellion or below chin to nasal root.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Lower face length",
+                        "id": "91",
+                        "description": "The length of the lower part of the face, from subnasale to gnathion.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Intercanthal width",
+                        "id": "92",
+                        "description": "The width the face, from left to right lateral eye corner.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Nasal root breadth",
+                        "id": "93",
+                        "description": "The width of the nasal root, from left to right maxillofrontale.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Nose length",
+                        "id": "94",
+                        "description": "The length of the nose, from sellion to subnasale.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Nose bridge length",
+                        "id": "95",
+                        "description": "The length of the nasal bridge, from sellion to pronasale.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Nasal tip protrusion",
+                        "id": "96",
+                        "description": "The depth of the tip of the nose, from subnasale to pronasale.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Nose width",
+                        "id": "97",
+                        "description": "The width of the nose, from left to right alare.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Width of mouth",
+                        "id": "98",
+                        "description": "The width of the mouth, from left to right chellion.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Height of chin",
+                        "id": "99",
+                        "description": "The height of the chin, from gnathion to supramemtale.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Face length short",
+                        "id": "100",
+                        "description": "The shortlength of the face , from sellion to supramemtale.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Sellion promentale length",
+                        "id": "101",
+                        "description": "The length of the face, from sellion to promentale.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dutch elderly (study id from original metadata is: 1, this name is not unique) ",
+            "description": "This data was measured in 1982 in cooperation with Gemeentelijke Dienst Verpleging en Verzorging, the association for elderly care and housing in The Hague.",
+            "profile": "tabular-data-resource",
+            "path": "id1_dutch_elderly.csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Reach height, standing",
+                        "id": "1",
+                        "description": "Reach height, standing",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
                     {
                         "name": "Stature",
                         "id": "2",
@@ -31,14 +216,6 @@
                         "unit": "mm"
                     },
                     {
-                        "name": "Elbow height, standing",
-                        "id": "5",
-                        "description": "Vertical distance from the floor to the lowest bony point of the elbow.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
                         "name": "Fist height, standing",
                         "id": "6",
                         "description": "The vertical distance from the floor to the middle of the grip device in the fist.",
@@ -50,14 +227,6 @@
                         "name": "Thigh clearance, sitting",
                         "id": "9",
                         "description": "Vertical distance from the seat to the highest point on the superior surface of the thigh at the abdominal-thigh junction.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Shoulder-elbow length",
-                        "id": "12",
-                        "description": "The maximum vertical distance from the acromion to the lowest bony point of the flexed elbow.",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -79,14 +248,6 @@
                         "unit": "mm"
                     },
                     {
-                        "name": "Shoulder height, sitting",
-                        "id": "15",
-                        "description": "The vertical distance from the seat to the acromion.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
                         "name": "Eye height, sitting",
                         "id": "16",
                         "description": "The vertical distance from the seat to the inner corner of the right eye.",
@@ -103,17 +264,9 @@
                         "unit": "mm"
                     },
                     {
-                        "name": "Reach depth",
-                        "id": "19",
-                        "description": null,
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Arm length",
-                        "id": "20",
-                        "description": "The horizontal distance from the back of the measuring chair to the most distal point of the grip device.",
+                        "name": "Reach height, sitting",
+                        "id": "18",
+                        "description": "The vertical distance from the horizontal surface to the mid-point of the grip device.",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -135,9 +288,17 @@
                         "unit": "mm"
                     },
                     {
-                        "name": "Hip breadth, sitting",
-                        "id": "25",
-                        "description": "The maximum horizontal distance across the hips, parallel to the seat.",
+                        "name": "Hip breadth",
+                        "id": "24",
+                        "description": "Maximum breadth across the hips.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Elbow-finger tip length",
+                        "id": "29",
+                        "description": "The maximum horizontal distance between the lowest bony point of the flexed elbow and the tip of the middle finger of the right hand.",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -151,41 +312,9 @@
                         "unit": "mm"
                     },
                     {
-                        "name": "Elbow-grip length",
-                        "id": "31",
-                        "description": "The maximum horizontal distance between the lowest bony point of the flexed elbow and the middle of the grip device.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
                         "name": "Buttock-popliteal depth",
                         "id": "32",
                         "description": "The horizontal distance from the back of the measuring chair to the hollow of the knee parallel of the long axis of the upper leg.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Buttock-knee depth, sitting",
-                        "id": "33",
-                        "description": "The horizontal distance from the posterior surface of the right buttock to the anterior surface of the right knee parallel to the long axis of the upper leg.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Foot length",
-                        "id": "41",
-                        "description": "The maximum horizontal distance from the heel of the longest toe of the right foot unshod, parallel to the long axis of the foot.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Foot breadth",
-                        "id": "42",
-                        "description": "The maximum width across the ball of the right foot unshod.",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -199,41 +328,9 @@
                         "unit": "mm"
                     },
                     {
-                        "name": "Hand width (without thumb)",
-                        "id": "44",
-                        "description": "The distance from the radial to ulnar side of the hand, measured at the distal extremities of the metacarpals.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Thumb breadth",
-                        "id": "45",
-                        "description": "The maximum distance from the radial to the ulnar side of the thumb at the distal interphalangial joint.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Forefinger breadth",
-                        "id": "46",
-                        "description": "The maximum distance from the radial to the ulnair side of the forefinger at the middle of the distal phalanx.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Grip circumference",
-                        "id": "54",
-                        "description": "The maximum circumference of the circle, made by the thumb and forefinger when enclosing a cone.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Ear length",
-                        "id": "55",
-                        "description": "The maximum distance from the highest tot the lowest point of the auricle.",
+                        "name": "Hand width (with thumb)",
+                        "id": "47",
+                        "description": "Hand width (with thumb)",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -247,145 +344,41 @@
                         "unit": "kg"
                     },
                     {
-                        "name": "Maximum gripping force",
-                        "id": "57",
-                        "description": "The maximum gripping force of a hand exerted for 3 seconds.",
+                        "name": "Cervical (c7) height, sitting",
+                        "id": "75",
+                        "description": "The vertical distance from the seat to the 7th cervical vertebra.",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "N"
+                        "unit": "mm"
                     },
                     {
-                        "name": "Pushing force with 2 hands",
-                        "id": "58",
-                        "description": "Maximum pushing force using both arms and hands together, exerted for 3 seconds.",
+                        "name": "Cervical (c7)-backplane depth, sitting",
+                        "id": "76",
+                        "description": "The horizontal distance from backplane to the 7th cervical vertebra.",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "N"
+                        "unit": "mm"
                     },
                     {
-                        "name": "Pulling force 1 hand",
-                        "id": "59",
-                        "description": "Maximum pulling force of one hand, exerted for 3 seconds.",
+                        "name": "Sacrum-backplane depth, sitting",
+                        "id": "77",
+                        "description": "The horizontal distance from backplane to the sacrum. As default, measured 10cm above the seat plane.",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "N"
+                        "unit": "mm"
                     },
                     {
-                        "name": "Torque with two hands",
-                        "id": "60",
-                        "description": "Maximum static torque of two hands and arms, exerted for 3 seconds.",
+                        "name": "Heel height",
+                        "id": "78",
+                        "description": "The vertical distance (on the shoe) between the bottom of the heel and the floor of the shoe.",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "Nm"
+                        "unit": "mm"
                     },
                     {
-                        "name": "Rotation of head towards left",
-                        "id": "61",
-                        "description": "Maximum rotation of the head towards the left.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Rotation of head towards right",
-                        "id": "62",
-                        "description": "Maximum rotation of the head towards the right.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Rotation of head backwards",
-                        "id": "63",
-                        "description": "Maximum backward bending (extension) of the head.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Rotation of head toward chest",
-                        "id": "64",
-                        "description": "Maximum forward bending (flexion) of the head.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Bending of head towards right shoulder",
-                        "id": "65",
-                        "description": "Maximum sideward bending of the head towards the right.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Bending of head towards left shoulder",
-                        "id": "66",
-                        "description": "Maximum sideward bending of the head towards the left.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Pronation",
-                        "id": "67",
-                        "description": "Maximum rotation of the wrist inward.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Supination",
-                        "id": "68",
-                        "description": "Maximum rotation of the wrist outward.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Extension hand",
-                        "id": "69",
-                        "description": "Maximum upward bending of the stretched preferred hand from the wrist.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Flexion hand",
-                        "id": "70",
-                        "description": "Maximum downward bending of the stretched preferred hand from the wrist.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Radial deviation",
-                        "id": "71",
-                        "description": "Maximum radial abduction of the stretched preferred hand from the wrist.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Ulnar deviation",
-                        "id": "72",
-                        "description": "Maximum ulnar abduction of the stretched preferred hand from the wrist.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Forefinger flexion",
-                        "id": "73",
-                        "description": "Maximum downward bending of the stretched forefinger of the preferred hand.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "deg"
-                    },
-                    {
-                        "name": "Step-up height",
-                        "id": "74",
-                        "description": "Vertical distance covered in one comfortable step upwards.",
+                        "name": "Palm height, standing",
+                        "id": "79",
+                        "description": "The vertical distance between the floor and the lowest point of the bent palm. Bent as if looking for support on a table.",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -394,9 +387,11 @@
             }
         },
         {
-            "name": "caesar_(nl).csv",
-            "title": "caesar_(nl).csv",
-            "description": "A table of data from the caesar_(nl).csv file.",
+            "name": "CAESAR (NL)",
+            "description": "The dataset from the CAESAR Project, with measurements conducted from 1998 until 2000 in Europe, North America. The ages of the subjects are between 18 and 65, but shown here as 99.",
+            "profile": "tabular-data-resource",
+            "path": "id15_caesar_(nl).csv",
+            "encoding": "utf-8",
             "schema": {
                 "fields": [
                     {
@@ -434,7 +429,7 @@
                     {
                         "name": "Head depth",
                         "id": "28",
-                        "description": null,
+                        "description": "Head depth",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -450,7 +445,7 @@
                     {
                         "name": "Neck base circumference",
                         "id": "36",
-                        "description": null,
+                        "description": "Neck base circumference",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -474,7 +469,7 @@
                     {
                         "name": "Hip circumference",
                         "id": "39",
-                        "description": null,
+                        "description": "Hip circumference",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -587,9 +582,11 @@
             }
         },
         {
-            "name": "dutch_adults.csv",
-            "title": "dutch_adults.csv",
-            "description": "A table of data from the dutch_adults.csv file.",
+            "name": "Dutch adults (study id from original metadata is: 4, this name is not unique) ",
+            "description": "The most recent version of the DINED-series was based on two sources. The first is the Geron-project 1993-1998 of the TU Delft Ergonomics group (see also the Geron 1998 table), which provides the basic body dimensions. Second source is the Caesar-project from TNO Human Factors Soesterberg, which provides the circumferences.",
+            "profile": "tabular-data-resource",
+            "path": "./data/id4_dutch_adults.csv",
+            "encoding": "utf-8",
             "schema": {
                 "fields": [
                     {
@@ -691,7 +688,7 @@
                     {
                         "name": "Reach depth",
                         "id": "19",
-                        "description": null,
+                        "description": "Reach depth",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -980,15 +977,1040 @@
             }
         },
         {
-            "name": "dutch_children.csv",
-            "title": "dutch_children.csv",
-            "description": "A table of data from the dutch_children.csv file.",
+            "name": "Dutch elderly (study id from original metadata is: 3, this name is not unique) ",
+            "description": "The TU Delft Geron project was a national study in which 750 subjects, who lived independently, were assessed. In total about 80 variables, all more or less important for product use, were measured. The sample consisted of four age groups ranging from 50 to over 80 years of age; a group of young people (20 - 30 years) was also studied for the purpose of comparison (see DINED 2004 table). Women and men participated in about equal numbers.",
+            "profile": "tabular-data-resource",
+            "path": "./data/id3_dutch_elderly.csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Stature",
+                        "id": "2",
+                        "description": "The vertical distance from the floor to the top of the head (vertex).",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Eye height, standing",
+                        "id": "3",
+                        "description": "Vertical distance between the standing surface and the inner corner of the right eye.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Shoulder height",
+                        "id": "4",
+                        "description": "Vertical distance from the standing surface to the acromion.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Elbow height, standing",
+                        "id": "5",
+                        "description": "Vertical distance from the floor to the lowest bony point of the elbow.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Fist height, standing",
+                        "id": "6",
+                        "description": "The vertical distance from the floor to the middle of the grip device in the fist.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Thigh clearance, sitting",
+                        "id": "9",
+                        "description": "Vertical distance from the seat to the highest point on the superior surface of the thigh at the abdominal-thigh junction.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Shoulder-elbow length",
+                        "id": "12",
+                        "description": "The maximum vertical distance from the acromion to the lowest bony point of the flexed elbow.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Elbow height, sitting",
+                        "id": "13",
+                        "description": "Vertical distance from the sitting surface to the lowest bony point of the elbow with the underarm horizontal. In some datasets this measure is calculated by subtracting shoulder-elbow length from shoulder height.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Popliteal height, sitting",
+                        "id": "14",
+                        "description": "The vertical distance from the footrest surface to the hollow of the knee.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Shoulder height, sitting",
+                        "id": "15",
+                        "description": "The vertical distance from the seat to the acromion.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Eye height, sitting",
+                        "id": "16",
+                        "description": "The vertical distance from the seat to the inner corner of the right eye.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Sitting height",
+                        "id": "17",
+                        "description": "The vertical distance from the seat to the vertex (top of the head).",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Reach depth",
+                        "id": "19",
+                        "description": "Reach depth",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Arm length",
+                        "id": "20",
+                        "description": "The horizontal distance from the back of the measuring chair to the most distal point of the grip device.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Breadth over the elbows",
+                        "id": "21",
+                        "description": "The maximum horizontal distance between the lateral sides of the elbows.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Shoulder breadth (bi-deltoid)",
+                        "id": "22",
+                        "description": "The horizontal breath across the shoulders.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hip breadth, sitting",
+                        "id": "25",
+                        "description": "The maximum horizontal distance across the hips, parallel to the seat.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Abdominal depth",
+                        "id": "30",
+                        "description": "The horizontal distance from the back of the measuring chair to the most distal point of the abdomen.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Elbow-grip length",
+                        "id": "31",
+                        "description": "The maximum horizontal distance between the lowest bony point of the flexed elbow and the middle of the grip device.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Buttock-popliteal depth",
+                        "id": "32",
+                        "description": "The horizontal distance from the back of the measuring chair to the hollow of the knee parallel of the long axis of the upper leg.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Buttock-knee depth, sitting",
+                        "id": "33",
+                        "description": "The horizontal distance from the posterior surface of the right buttock to the anterior surface of the right knee parallel to the long axis of the upper leg.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Foot length",
+                        "id": "41",
+                        "description": "The maximum horizontal distance from the heel of the longest toe of the right foot unshod, parallel to the long axis of the foot.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Foot breadth",
+                        "id": "42",
+                        "description": "The maximum width across the ball of the right foot unshod.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hand length",
+                        "id": "43",
+                        "description": "The distance from the wrist crease tot the tip of the middle finger, parallel to the fingers.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hand width (without thumb)",
+                        "id": "44",
+                        "description": "The distance from the radial to ulnar side of the hand, measured at the distal extremities of the metacarpals.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Thumb breadth",
+                        "id": "45",
+                        "description": "The maximum distance from the radial to the ulnar side of the thumb at the distal interphalangial joint.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Forefinger breadth",
+                        "id": "46",
+                        "description": "The maximum distance from the radial to the ulnair side of the forefinger at the middle of the distal phalanx.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Grip circumference",
+                        "id": "54",
+                        "description": "The maximum circumference of the circle, made by the thumb and forefinger when enclosing a cone.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Ear length",
+                        "id": "55",
+                        "description": "The maximum distance from the highest tot the lowest point of the auricle.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Body mass",
+                        "id": "56",
+                        "description": "Total mass of the body",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "kg"
+                    },
+                    {
+                        "name": "Maximum gripping force",
+                        "id": "57",
+                        "description": "The maximum gripping force of a hand exerted for 3 seconds.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "N"
+                    },
+                    {
+                        "name": "Pushing force with 2 hands",
+                        "id": "58",
+                        "description": "Maximum pushing force using both arms and hands together, exerted for 3 seconds.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "N"
+                    },
+                    {
+                        "name": "Pulling force 1 hand",
+                        "id": "59",
+                        "description": "Maximum pulling force of one hand, exerted for 3 seconds.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "N"
+                    },
+                    {
+                        "name": "Torque with two hands",
+                        "id": "60",
+                        "description": "Maximum static torque of two hands and arms, exerted for 3 seconds.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "Nm"
+                    },
+                    {
+                        "name": "Rotation of head towards left",
+                        "id": "61",
+                        "description": "Maximum rotation of the head towards the left.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Rotation of head towards right",
+                        "id": "62",
+                        "description": "Maximum rotation of the head towards the right.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Rotation of head backwards",
+                        "id": "63",
+                        "description": "Maximum backward bending (extension) of the head.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Rotation of head toward chest",
+                        "id": "64",
+                        "description": "Maximum forward bending (flexion) of the head.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Bending of head towards right shoulder",
+                        "id": "65",
+                        "description": "Maximum sideward bending of the head towards the right.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Bending of head towards left shoulder",
+                        "id": "66",
+                        "description": "Maximum sideward bending of the head towards the left.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Pronation",
+                        "id": "67",
+                        "description": "Maximum rotation of the wrist inward.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Supination",
+                        "id": "68",
+                        "description": "Maximum rotation of the wrist outward.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Extension hand",
+                        "id": "69",
+                        "description": "Maximum upward bending of the stretched preferred hand from the wrist.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Flexion hand",
+                        "id": "70",
+                        "description": "Maximum downward bending of the stretched preferred hand from the wrist.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Radial deviation",
+                        "id": "71",
+                        "description": "Maximum radial abduction of the stretched preferred hand from the wrist.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Ulnar deviation",
+                        "id": "72",
+                        "description": "Maximum ulnar abduction of the stretched preferred hand from the wrist.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Forefinger flexion",
+                        "id": "73",
+                        "description": "Maximum downward bending of the stretched forefinger of the preferred hand.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "deg"
+                    },
+                    {
+                        "name": "Step-up height",
+                        "id": "74",
+                        "description": "Vertical distance covered in one comfortable step upwards.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dutch students (study id from original metadata is: 2, this name is not unique) ",
+            "description": "This study is the result of a third year practicum with Delft Industrial Design Engineering students, measurements on students are done in three successive years.",
+            "profile": "tabular-data-resource",
+            "path": "./data/id2_dutch_students.csv",
+            "encoding": "utf-8",
             "schema": {
                 "fields": [
                     {
                         "name": "Reach height, standing",
                         "id": "1",
-                        "description": null,
+                        "description": "Reach height, standing",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Stature",
+                        "id": "2",
+                        "description": "The vertical distance from the floor to the top of the head (vertex).",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Eye height, standing",
+                        "id": "3",
+                        "description": "Vertical distance between the standing surface and the inner corner of the right eye.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Elbow height, standing",
+                        "id": "5",
+                        "description": "Vertical distance from the floor to the lowest bony point of the elbow.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Thigh clearance, sitting",
+                        "id": "9",
+                        "description": "Vertical distance from the seat to the highest point on the superior surface of the thigh at the abdominal-thigh junction.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Elbow height, sitting",
+                        "id": "13",
+                        "description": "Vertical distance from the sitting surface to the lowest bony point of the elbow with the underarm horizontal. In some datasets this measure is calculated by subtracting shoulder-elbow length from shoulder height.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Popliteal height, sitting",
+                        "id": "14",
+                        "description": "The vertical distance from the footrest surface to the hollow of the knee.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Eye height, sitting",
+                        "id": "16",
+                        "description": "The vertical distance from the seat to the inner corner of the right eye.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Sitting height",
+                        "id": "17",
+                        "description": "The vertical distance from the seat to the vertex (top of the head).",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Reach depth",
+                        "id": "19",
+                        "description": "Reach depth",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Breadth over the elbows",
+                        "id": "21",
+                        "description": "The maximum horizontal distance between the lateral sides of the elbows.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hip breadth",
+                        "id": "24",
+                        "description": "Maximum breadth across the hips.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hip breadth, sitting",
+                        "id": "25",
+                        "description": "The maximum horizontal distance across the hips, parallel to the seat.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Chest depth",
+                        "id": "27",
+                        "description": "The maximum horizontal distance between the front and the back of the trunk at the nipples.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Elbow-grip length",
+                        "id": "31",
+                        "description": "The maximum horizontal distance between the lowest bony point of the flexed elbow and the middle of the grip device.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Buttock-popliteal depth",
+                        "id": "32",
+                        "description": "The horizontal distance from the back of the measuring chair to the hollow of the knee parallel of the long axis of the upper leg.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Buttock-knee depth, sitting",
+                        "id": "33",
+                        "description": "The horizontal distance from the posterior surface of the right buttock to the anterior surface of the right knee parallel to the long axis of the upper leg.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Buttock foot length, sitting",
+                        "id": "34",
+                        "description": "The horizontal distance from the buttock to the sole of the foot of the stretched leg.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hand length",
+                        "id": "43",
+                        "description": "The distance from the wrist crease tot the tip of the middle finger, parallel to the fingers.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Forefinger breadth",
+                        "id": "46",
+                        "description": "The maximum distance from the radial to the ulnair side of the forefinger at the middle of the distal phalanx.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hand width (with thumb)",
+                        "id": "47",
+                        "description": "Hand width (with thumb)",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hand thickness",
+                        "id": "48",
+                        "description": "The maximum distance between the palm and the back of the hand at the middle finger joint.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Length pointing finger",
+                        "id": "53",
+                        "description": "Length pointing finger",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Body mass",
+                        "id": "56",
+                        "description": "Total mass of the body",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "kg"
+                    },
+                    {
+                        "name": "Maximum gripping force",
+                        "id": "57",
+                        "description": "The maximum gripping force of a hand exerted for 3 seconds.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "N"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dutch students (study id from original metadata is: 11, this name is not unique) ",
+            "description": "This study contains measurements of 347 Dutch students taking part in the first year of the Industrial Design Engineer Bachelor's programme at TU Delft. Measurements were conducted in 2014 in the traditional way, with calipers and tape in combination with a measurement chair.",
+            "profile": "tabular-data-resource",
+            "path": "./data/id11_dutch_students.csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Reach height, standing",
+                        "id": "1",
+                        "description": "Reach height, standing",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Stature",
+                        "id": "2",
+                        "description": "The vertical distance from the floor to the top of the head (vertex).",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Eye height, standing",
+                        "id": "3",
+                        "description": "Vertical distance between the standing surface and the inner corner of the right eye.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Elbow height, standing",
+                        "id": "5",
+                        "description": "Vertical distance from the floor to the lowest bony point of the elbow.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Fist height, standing",
+                        "id": "6",
+                        "description": "The vertical distance from the floor to the middle of the grip device in the fist.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Thigh clearance, sitting",
+                        "id": "9",
+                        "description": "Vertical distance from the seat to the highest point on the superior surface of the thigh at the abdominal-thigh junction.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Elbow height, sitting",
+                        "id": "13",
+                        "description": "Vertical distance from the sitting surface to the lowest bony point of the elbow with the underarm horizontal. In some datasets this measure is calculated by subtracting shoulder-elbow length from shoulder height.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Popliteal height, sitting",
+                        "id": "14",
+                        "description": "The vertical distance from the footrest surface to the hollow of the knee.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Eye height, sitting",
+                        "id": "16",
+                        "description": "The vertical distance from the seat to the inner corner of the right eye.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Sitting height",
+                        "id": "17",
+                        "description": "The vertical distance from the seat to the vertex (top of the head).",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Reach height, sitting",
+                        "id": "18",
+                        "description": "The vertical distance from the horizontal surface to the mid-point of the grip device.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Arm length",
+                        "id": "20",
+                        "description": "The horizontal distance from the back of the measuring chair to the most distal point of the grip device.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Breadth over the elbows",
+                        "id": "21",
+                        "description": "The maximum horizontal distance between the lateral sides of the elbows.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Shoulder breadth (bi-deltoid)",
+                        "id": "22",
+                        "description": "The horizontal breath across the shoulders.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hip breadth",
+                        "id": "24",
+                        "description": "Maximum breadth across the hips.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hip breadth, sitting",
+                        "id": "25",
+                        "description": "The maximum horizontal distance across the hips, parallel to the seat.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Chest depth",
+                        "id": "27",
+                        "description": "The maximum horizontal distance between the front and the back of the trunk at the nipples.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Elbow-grip length",
+                        "id": "31",
+                        "description": "The maximum horizontal distance between the lowest bony point of the flexed elbow and the middle of the grip device.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Buttock-popliteal depth",
+                        "id": "32",
+                        "description": "The horizontal distance from the back of the measuring chair to the hollow of the knee parallel of the long axis of the upper leg.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Buttock-knee depth, sitting",
+                        "id": "33",
+                        "description": "The horizontal distance from the posterior surface of the right buttock to the anterior surface of the right knee parallel to the long axis of the upper leg.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Buttock foot length, sitting",
+                        "id": "34",
+                        "description": "The horizontal distance from the buttock to the sole of the foot of the stretched leg.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Head circumference",
+                        "id": "35",
+                        "description": "Maximum about horizontal circumference of the head measured just the glabella and over the opisthocranion.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Neck base circumference",
+                        "id": "36",
+                        "description": "Neck base circumference",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Chest circumference",
+                        "id": "37",
+                        "description": "Circumference of the chest measured at nipple level.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Waist circumference",
+                        "id": "38",
+                        "description": "Circumference of trunk at a level midway between the lowest ribs and upper ilia crest.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hip circumference",
+                        "id": "39",
+                        "description": "Hip circumference",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Foot length",
+                        "id": "41",
+                        "description": "The maximum horizontal distance from the heel of the longest toe of the right foot unshod, parallel to the long axis of the foot.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Foot breadth",
+                        "id": "42",
+                        "description": "The maximum width across the ball of the right foot unshod.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hand length",
+                        "id": "43",
+                        "description": "The distance from the wrist crease tot the tip of the middle finger, parallel to the fingers.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hand width (without thumb)",
+                        "id": "44",
+                        "description": "The distance from the radial to ulnar side of the hand, measured at the distal extremities of the metacarpals.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Forefinger breadth",
+                        "id": "46",
+                        "description": "The maximum distance from the radial to the ulnair side of the forefinger at the middle of the distal phalanx.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Hand thickness",
+                        "id": "48",
+                        "description": "The maximum distance between the palm and the back of the hand at the middle finger joint.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Length pointing finger",
+                        "id": "53",
+                        "description": "Length pointing finger",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Body mass",
+                        "id": "56",
+                        "description": "Total mass of the body",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "kg"
+                    },
+                    {
+                        "name": "Crotch height",
+                        "id": "81",
+                        "description": "Vertical distance from the floor to the distal part of the inferior ramus of the pubic bone.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Calf circumference",
+                        "id": "82",
+                        "description": "Maximum circumference of the calf.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Thigh circumference",
+                        "id": "83",
+                        "description": "Maximum circumference of the thigh.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Foot circumference",
+                        "id": "84",
+                        "description": "Maximum circumference of the heel measured at the ankle (the point where the talus is situated) and crossing the rearmost and lowest point of the heel.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "CAESAR (USA)",
+            "description": "The dataset from the CAESAR Project, with measurements conducted from 1998 until 2000 in Europe, North America. The ages of the subjects are between 18 and 65, but shown here as 99.",
+            "profile": "tabular-data-resource",
+            "path": "./data/id13_caesar_(usa).csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Stature",
+                        "id": "2",
+                        "description": "The vertical distance from the floor to the top of the head (vertex).",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Head breadth",
+                        "id": "23",
+                        "description": "Maximum breadth of the head above the ears measured perpendicular to the midsagittal plane.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Head depth",
+                        "id": "28",
+                        "description": "Head depth",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Head circumference",
+                        "id": "35",
+                        "description": "Maximum about horizontal circumference of the head measured just the glabella and over the opisthocranion.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Face length",
+                        "id": "85",
+                        "description": "The length of the face, from menton to sellion or chin to nasal root.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "CAESAR (IT)",
+            "description": "The dataset from the CAESAR Project, with measurements conducted from 1998 until 2000 in Europe, North America. The ages of the subjects are between 18 and 65, but shown here as 99.",
+            "profile": "tabular-data-resource",
+            "path": "./data/id14_caesar_(it).csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Stature",
+                        "id": "2",
+                        "description": "The vertical distance from the floor to the top of the head (vertex).",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Head breadth",
+                        "id": "23",
+                        "description": "Maximum breadth of the head above the ears measured perpendicular to the midsagittal plane.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Head depth",
+                        "id": "28",
+                        "description": "Head depth",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Head circumference",
+                        "id": "35",
+                        "description": "Maximum about horizontal circumference of the head measured just the glabella and over the opisthocranion.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    },
+                    {
+                        "name": "Face length",
+                        "id": "85",
+                        "description": "The length of the face, from menton to sellion or chin to nasal root.",
+                        "type": "number",
+                        "rdfType": "https://schema.org/QuantitativeValue",
+                        "unit": "mm"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dutch children",
+            "description": "",
+            "profile": "tabular-data-resource",
+            "path": "./data/id5_dutch_children.csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Reach height, standing",
+                        "id": "1",
+                        "description": "Reach height, standing",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -1100,7 +2122,7 @@
                     {
                         "name": "Reach depth",
                         "id": "19",
-                        "description": null,
+                        "description": "Reach depth",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -1164,7 +2186,7 @@
                     {
                         "name": "Head depth",
                         "id": "28",
-                        "description": null,
+                        "description": "Head depth",
                         "type": "number",
                         "rdfType": "https://schema.org/QuantitativeValue",
                         "unit": "mm"
@@ -1307,589 +2329,6 @@
                     }
                 ]
             }
-        },
-        {
-            "name": "caesar_(it).csv",
-            "title": "caesar_(it).csv",
-            "description": "A table of data from the caesar_(it).csv file.",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "Stature",
-                        "id": "2",
-                        "description": "The vertical distance from the floor to the top of the head (vertex).",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head breadth",
-                        "id": "23",
-                        "description": "Maximum breadth of the head above the ears measured perpendicular to the midsagittal plane.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head depth",
-                        "id": "28",
-                        "description": null,
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head circumference",
-                        "id": "35",
-                        "description": "Maximum about horizontal circumference of the head measured just the glabella and over the opisthocranion.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Face length",
-                        "id": "85",
-                        "description": "The length of the face, from menton to sellion or chin to nasal root.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "caesar_(usa).csv",
-            "title": "caesar_(usa).csv",
-            "description": "A table of data from the caesar_(usa).csv file.",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "Stature",
-                        "id": "2",
-                        "description": "The vertical distance from the floor to the top of the head (vertex).",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head breadth",
-                        "id": "23",
-                        "description": "Maximum breadth of the head above the ears measured perpendicular to the midsagittal plane.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head depth",
-                        "id": "28",
-                        "description": null,
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head circumference",
-                        "id": "35",
-                        "description": "Maximum about horizontal circumference of the head measured just the glabella and over the opisthocranion.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Face length",
-                        "id": "85",
-                        "description": "The length of the face, from menton to sellion or chin to nasal root.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "dutch_students.csv",
-            "title": "dutch_students.csv",
-            "description": "A table of data from the dutch_students.csv file.",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "Reach height, standing",
-                        "id": "1",
-                        "description": null,
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Stature",
-                        "id": "2",
-                        "description": "The vertical distance from the floor to the top of the head (vertex).",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Eye height, standing",
-                        "id": "3",
-                        "description": "Vertical distance between the standing surface and the inner corner of the right eye.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Elbow height, standing",
-                        "id": "5",
-                        "description": "Vertical distance from the floor to the lowest bony point of the elbow.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Fist height, standing",
-                        "id": "6",
-                        "description": "The vertical distance from the floor to the middle of the grip device in the fist.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Thigh clearance, sitting",
-                        "id": "9",
-                        "description": "Vertical distance from the seat to the highest point on the superior surface of the thigh at the abdominal-thigh junction.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Elbow height, sitting",
-                        "id": "13",
-                        "description": "Vertical distance from the sitting surface to the lowest bony point of the elbow with the underarm horizontal. In some datasets this measure is calculated by subtracting shoulder-elbow length from shoulder height.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Popliteal height, sitting",
-                        "id": "14",
-                        "description": "The vertical distance from the footrest surface to the hollow of the knee.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Eye height, sitting",
-                        "id": "16",
-                        "description": "The vertical distance from the seat to the inner corner of the right eye.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Sitting height",
-                        "id": "17",
-                        "description": "The vertical distance from the seat to the vertex (top of the head).",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Reach height, sitting",
-                        "id": "18",
-                        "description": "The vertical distance from the horizontal surface to the mid-point of the grip device.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Arm length",
-                        "id": "20",
-                        "description": "The horizontal distance from the back of the measuring chair to the most distal point of the grip device.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Breadth over the elbows",
-                        "id": "21",
-                        "description": "The maximum horizontal distance between the lateral sides of the elbows.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Shoulder breadth (bi-deltoid)",
-                        "id": "22",
-                        "description": "The horizontal breath across the shoulders.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Hip breadth",
-                        "id": "24",
-                        "description": "Maximum breadth across the hips.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Hip breadth, sitting",
-                        "id": "25",
-                        "description": "The maximum horizontal distance across the hips, parallel to the seat.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Chest depth",
-                        "id": "27",
-                        "description": "The maximum horizontal distance between the front and the back of the trunk at the nipples.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Elbow-grip length",
-                        "id": "31",
-                        "description": "The maximum horizontal distance between the lowest bony point of the flexed elbow and the middle of the grip device.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Buttock-popliteal depth",
-                        "id": "32",
-                        "description": "The horizontal distance from the back of the measuring chair to the hollow of the knee parallel of the long axis of the upper leg.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Buttock-knee depth, sitting",
-                        "id": "33",
-                        "description": "The horizontal distance from the posterior surface of the right buttock to the anterior surface of the right knee parallel to the long axis of the upper leg.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Buttock foot length, sitting",
-                        "id": "34",
-                        "description": "The horizontal distance from the buttock to the sole of the foot of the stretched leg.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head circumference",
-                        "id": "35",
-                        "description": "Maximum about horizontal circumference of the head measured just the glabella and over the opisthocranion.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Neck base circumference",
-                        "id": "36",
-                        "description": null,
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Chest circumference",
-                        "id": "37",
-                        "description": "Circumference of the chest measured at nipple level.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Waist circumference",
-                        "id": "38",
-                        "description": "Circumference of trunk at a level midway between the lowest ribs and upper ilia crest.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Hip circumference",
-                        "id": "39",
-                        "description": null,
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Foot length",
-                        "id": "41",
-                        "description": "The maximum horizontal distance from the heel of the longest toe of the right foot unshod, parallel to the long axis of the foot.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Foot breadth",
-                        "id": "42",
-                        "description": "The maximum width across the ball of the right foot unshod.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Hand length",
-                        "id": "43",
-                        "description": "The distance from the wrist crease tot the tip of the middle finger, parallel to the fingers.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Hand width (without thumb)",
-                        "id": "44",
-                        "description": "The distance from the radial to ulnar side of the hand, measured at the distal extremities of the metacarpals.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Forefinger breadth",
-                        "id": "46",
-                        "description": "The maximum distance from the radial to the ulnair side of the forefinger at the middle of the distal phalanx.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Hand thickness",
-                        "id": "48",
-                        "description": "The maximum distance between the palm and the back of the hand at the middle finger joint.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Length pointing finger",
-                        "id": "53",
-                        "description": null,
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Body mass",
-                        "id": "56",
-                        "description": "Total mass of the body",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "kg"
-                    },
-                    {
-                        "name": "Crotch height",
-                        "id": "81",
-                        "description": "Vertical distance from the floor to the distal part of the inferior ramus of the pubic bone.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Calf circumference",
-                        "id": "82",
-                        "description": "Maximum circumference of the calf.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Thigh circumference",
-                        "id": "83",
-                        "description": "Maximum circumference of the thigh.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Foot circumference",
-                        "id": "84",
-                        "description": "Maximum circumference of the heel measured at the ankle (the point where the talus is situated) and crossing the rearmost and lowest point of the heel.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "dutch_children,_0.5-7.0_years_(nl).csv",
-            "title": "dutch_children,_0.5-7.0_years_(nl).csv",
-            "description": "A table of data from the dutch_children,_0.5-7.0_years_(nl).csv file.",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "Stature",
-                        "id": "2",
-                        "description": "The vertical distance from the floor to the top of the head (vertex).",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head height",
-                        "id": "7",
-                        "description": "The height of the head perpendicular to the Frankfort Plane, from menton to vertex.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head breadth",
-                        "id": "23",
-                        "description": "Maximum breadth of the head above the ears measured perpendicular to the midsagittal plane.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head depth",
-                        "id": "28",
-                        "description": null,
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Head circumference",
-                        "id": "35",
-                        "description": "Maximum about horizontal circumference of the head measured just the glabella and over the opisthocranion.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Body mass",
-                        "id": "56",
-                        "description": "Total mass of the body",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "kg"
-                    },
-                    {
-                        "name": "Face length",
-                        "id": "85",
-                        "description": "The length of the face, from menton to sellion or chin to nasal root.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Face width",
-                        "id": "89",
-                        "description": "The width of the face, from left to right zygon.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Face length long",
-                        "id": "90",
-                        "description": "The long length of the face, from gnathion to sellion or below chin to nasal root.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Lower face length",
-                        "id": "91",
-                        "description": "The length of the lower part of the face, from subnasale to gnathion.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Intercanthal width",
-                        "id": "92",
-                        "description": "The width the face, from left to right lateral eye corner.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Nasal root breadth",
-                        "id": "93",
-                        "description": "The width of the nasal root, from left to right maxillofrontale.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Nose length",
-                        "id": "94",
-                        "description": "The length of the nose, from sellion to subnasale.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Nose bridge length",
-                        "id": "95",
-                        "description": "The length of the nasal bridge, from sellion to pronasale.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Nasal tip protrusion",
-                        "id": "96",
-                        "description": "The depth of the tip of the nose, from subnasale to pronasale.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Nose width",
-                        "id": "97",
-                        "description": "The width of the nose, from left to right alare.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Width of mouth",
-                        "id": "98",
-                        "description": "The width of the mouth, from left to right chellion.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Height of chin",
-                        "id": "99",
-                        "description": "The height of the chin, from gnathion to supramemtale.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Face length short",
-                        "id": "100",
-                        "description": "The shortlength of the face , from sellion to supramemtale.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    },
-                    {
-                        "name": "Sellion promentale length",
-                        "id": "101",
-                        "description": "The length of the face, from sellion to promentale.",
-                        "type": "number",
-                        "rdfType": "https://schema.org/QuantitativeValue",
-                        "unit": "mm"
-                    }
-                ]
-            }
         }
-    ],
-    "name": "dined-tables",
-    "title": "Dined tabular Data",
-    "description": "A data package consisting of tables describing 1D dimensional anthropometric data."
+    ]
 }
